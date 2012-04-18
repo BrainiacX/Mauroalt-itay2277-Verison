@@ -82,7 +82,7 @@ echo "</tr></tbody>";
 $targettribe=$dataarray['31'];
 
 
-if ($dataarray[31]=='1'){
+if ($dataarray[34]=='1'){
 $start=1; ?>
 	<table cellpadding="1" cellspacing="1" class="defender">
 	<thead>
@@ -101,27 +101,27 @@ for($i=$start;$i<=($start+9);$i++) {
 }
 echo "</tr><tr><th>Troops</th>";
 for($i=35;$i<=44;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 echo "<tr><th>Casualties</th>";
 for($i=45;$i<=54;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 ?>
 </tr></tbody></table>
 
 <?php }
-if ($dataarray[31]=='2'){
+if ($dataarray[55]=='1'){
 $start=11;?>
 	<table cellpadding="1" cellspacing="1" class="defender">
 	<thead>
@@ -140,26 +140,26 @@ for($i=$start;$i<=($start+9);$i++) {
 }
 echo "</tr><tr><th>Troops</th>";
 for($i=56;$i<=65;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 echo "<tr><th>Casualties</th>";
 for($i=66;$i<=75;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 ?>
 </tr></tbody></table>
 <?php } ?>
-<?php  if ($dataarray[31]=='3'){
+<?php  if ($dataarray[76]=='1'){
 $start=21; ?>
 	<table cellpadding="1" cellspacing="1" class="defender">
 	<thead>
@@ -178,27 +178,27 @@ for($i=$start;$i<=($start+9);$i++) {
 }
 echo "</tr><tr><th>Troops</th>";
 for($i=77;$i<=86;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 echo "<tr><th>Casualties</th>";
 for($i=87;$i<=96;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 ?>
 </tr></tbody></table>
 
 <?php } ?>
-<?php  if ($dataarray[31]=='4'){
+<?php  if ($dataarray[97]=='1'){
 $start=31; ?>
 	<table cellpadding="1" cellspacing="1" class="defender">
 	<thead>
@@ -217,27 +217,27 @@ for($i=$start;$i<=($start+9);$i++) {
 }
 echo "</tr><tr><th>Troops</th>";
 for($i=98;$i<=107;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 echo "<tr><th>Casualties</th>";
 for($i=108;$i<=117;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 ?>
 </tr></tbody></table>
 
 <?php } ?>
-<?php  if ($dataarray[31]=='5'){
+<?php  if ($dataarray[118]=='1'){
 $start=41; ?>
 	<table cellpadding="1" cellspacing="1" class="defender">
 	<thead>
@@ -256,20 +256,20 @@ for($i=$start;$i<=($start+9);$i++) {
 }
 echo "</tr><tr><th>Troops</th>";
 for($i=119;$i<=128;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 echo "<tr><th>Casualties</th>";
 for($i=129;$i<=138;$i++) {
-	if($dataarray[$i] == "?") {
-        echo "<td class=\"none\">?</td>";
+	if($dataarray[$i] == 0) {
+    	echo "<td class=\"none\">0</td>";
     }
     else {
-        echo "<td class=\"none\">?</td>";
+    	echo "<td>".$dataarray[$i]."</td>";
     }
 }
 ?>
